@@ -1,0 +1,17 @@
+{
+	"heading":"My ToDo Application",
+	"Language:":"Change Language",
+	"english":"English",
+	"french":"French",
+	"add":"Add",
+	"taskid":"Task ID",
+	"taskname":"Task Name",
+	"completed":"Mark Completed",
+	"remove":"Remove Task",
+	"cancel":"Cancel",
+	"patternid":"Invalid Task ID",
+    "requireid":"Enter task ID",
+    "patternname":"Invalid Task Name",
+    "requirename":"Enter task Name"
+
+}

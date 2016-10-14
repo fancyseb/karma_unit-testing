@@ -1,0 +1,16 @@
+{
+	"heading":"Mon application ToDo",
+	"Language:":"Changer de langue",
+	"english":"English",
+	"french":"French",
+	"add":"Ajouter",
+	"cancel":"annuler",
+	"taskid":"ID de tâche",
+	"taskname":"Nom de l'intervention",
+	"completed":"Marquer comme terminée",
+	"remove":"Supprimer Tâches",
+	"patternid":"ID de tâche non valide",
+    "requireid":"Entrez l'ID de tâche",
+    "patternname":"Nom de tâche non valide",
+    "requirename":"Entrez le nom de la tâche"
+}

@@ -1,0 +1,23 @@
+ <form name="myForm" class="myForm" >
+            <div class="formid  form-group-xs">
+                <label class="col-sm-2 control-label" for="id" translate="taskid" class="tid"></label>
+                <div class="col-sm-10 tid">
+                    <input class="form-control" type="text" ng-model="taskid" name="id" ng-pattern="/^(0|[1-9][0-9]*)$/" required>
+                    <p class="errorMsg" ng-show="myForm.id.$error.pattern" translate="patternid"></p>
+                    <p class="errorMsg" ng-init="req1=1" ng-show="myForm.id.$error.required&&req1!=1" translate="requireid"></p>
+                </div>
+            </div>
+            <div class="formname form-group form-group-xs">
+                <label class="col-sm-2 control-label" for="name" translate="taskname"></label>
+                <div class="col-sm-10">
+                    <input class="form-control" type="text" ng-model="taskname" name="name" ng-pattern="/^[a-zA-Z0-9]*$/" required>
+                    <p class="errorMsg" ng-show="myForm.name.$error.pattern" translate="patternname"></p>
+                    <p class="errorMsg" ng-init="req2=1" ng-show="myForm.name.$error.required&&req2!=1" translate="patternname""></p>
+                </div>
+            </div>
+            <div class="button-div col-xs-10 text-center">
+                <button type="button" class="addbtn btn btn-primary" ng-click="addRow()" translate="add"></button>
+                <button type="button" class="cancelbtn btn btn-info " ng-click="cancel()" translate="cancel"></button>
+            </div>
+</form>
+
